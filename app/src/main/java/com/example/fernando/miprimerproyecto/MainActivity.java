@@ -58,11 +58,11 @@ public class MainActivity extends ActionBarActivity {
         int nro1 = Integer.parseInt(valor1);
         int nro2 = Integer.parseInt(valor2);
 
-        if (r1.isChecked() == true) {
+        if (r1.isChecked()) {
             int suma = nro1 + nro2;
             String resultado = String.valueOf(suma);
             tv5.setText(resultado);
-        } else if (r2.isChecked() == true) {
+        } else if (r2.isChecked()) {
             int resta = nro1 - nro2;
             String resultado = String.valueOf(resta);
             tv5.setText(resultado);
